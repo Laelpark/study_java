@@ -15,10 +15,18 @@ public class CharExample {
 		System.out.println(c2);
 		System.out.println(c3);
 		
-//		char c4 = "";
-//		char c5 = "";
-//		char c6 = "";
+		char c4 = '가';          // 문자를 저장
+		char c5 = 44032;         // 십진수로 저장
+		char c6 = '\uac00';      // 16진수로 저장
 		
+		System.out.println(c4);
+		System.out.println(c5);
+		System.out.println(c6);
 		
+		int unicode = c1;
+		System.out.println(unicode);
+		
+		int unicode2 = c4;
+		System.out.println(unicode2);
 	}
 }
