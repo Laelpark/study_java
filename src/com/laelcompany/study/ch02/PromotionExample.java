@@ -11,7 +11,7 @@ public class PromotionExample {
 //		작은 byte에서 큰 int타입으로 변환 가능
 		
 		byte byteValue = 10;
-		System.out.println("byteValue: " + byteValue + "입니다.");
+		System.out.println("byteValue: " + byteValue + " 입니다.");
 		                 // 문자열을 보이고 싶으면 "" 안에다 넣고 싶은 문자
 		
 		int intValue = byteValue;    // 10
@@ -26,6 +26,13 @@ public class PromotionExample {
 		
 //		byte byteValue2 = intValue2;
 //		System.out.println("byteValue: " + byteValue + "입니다.");
+		
+		int intValue3 = 200;
+		System.out.println("intValue3:" + intValue3 + " 입니다.");
+		
+		double doubleValue = intValue3;
+		System.out.println("doubleValue:" + doubleValue + " 입니다.");
+		
 		
 	}
 }
