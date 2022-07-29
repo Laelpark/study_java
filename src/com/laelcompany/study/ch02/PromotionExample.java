@@ -33,6 +33,5 @@ public class PromotionExample {
 		double doubleValue = intValue3;
 		System.out.println("doubleValue:" + doubleValue + " 입니다.");
 		
-		
 	}
 }
