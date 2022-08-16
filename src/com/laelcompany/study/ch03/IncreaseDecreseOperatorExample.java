@@ -16,6 +16,7 @@ public class IncreaseDecreseOperatorExample {
 		System.out.println("i:" + i);
 		System.out.println("j:" + j);
 		
+		System.out.println("--------------------------");
 //		int 변수 a,b를 선언하고 초기값으로 1을 넣어 준다.
 //		a 앞에 감소연산
 //		b 뒤에 감소연산
@@ -29,6 +30,7 @@ public class IncreaseDecreseOperatorExample {
 		System.out.println(a);
 		System.out.println(b);
 		
+		System.out.println("--------------------------");
 		
 //		int 변수 k 선언 후 초기값으로 i 뒤에 증감연산
 		
@@ -38,11 +40,14 @@ public class IncreaseDecreseOperatorExample {
 		System.out.println(k);
 		System.out.println(i);
 		
+		System.out.println("--------------------------");
+		
 		int m = ++j;
 		
 		System.out.println(m);
 		System.out.println(j);
 		
+		System.out.println("--------------------------");
 		
 		int z = ++i + j++;  
 //		z:5 i:3 j:2  전체 연산했을 때의 각 값
@@ -51,6 +56,8 @@ public class IncreaseDecreseOperatorExample {
 		System.out.println(z);
 		System.out.println(i);
 		System.out.println(j);
+		
+		System.out.println("--------------------------");
 	}
 	
 }
