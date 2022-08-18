@@ -57,7 +57,41 @@ public class ArrayInArrayExample {
 		System.out.println("영어 평균값 : " + avg2);
 		System.out.println("수학 평균값 : " + avg3);
 		
-		System.out.println("-----------선생님 답--------------");
+//		System.out.println("-----------다른분 답--------------");
+		
+//		
+//		String[] name = {"한찬구","장동건","고소영","박태환","싸이"};
+//		String[] subject = {"국어","영어","수학"};
+//		
+//		
+//		// 1 개인의 평균
+//		
+//		for(int i=0; i<scores.length; i++) {
+//			int sum=0;
+//			for(int j=0; j<scores[i].length; j++) {
+//				sum +=scores[i][j];
+//			}
+//			System.out.println(name[i]+"의 평균 점수는: "+((double)sum/3));
+////			System.out.println(name[i]+"의 평균 점수는: "+((double)sum/scores[i].length));
+//		}
+//		
+//		System.out.println("------------------------------");
+		
+//		// 2 과목별 평균
+//		for(int j=0; j<3; j++) {
+//			int sum=0;
+//			for(int i=0; i<5; i++) {
+//				sum +=scores[i][j];
+//			}
+//			System.out.println(subject[j]+" 과목의 평균 점수는: "+((double)sum/5));
+//		}
+//	
+		
+		int[][] score = {{99,88,55}, {55,77,66}, {55,55,44}, {55,55,44}, {55,55,77}};
+		
+		String[] name = {"장원영", "장동건", "고소영", "박태환", "싸이"};
+		String[] subject = {"국어", "영어", "수학"};
+		
 		
 		
 	}
