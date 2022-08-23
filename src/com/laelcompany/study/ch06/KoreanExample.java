@@ -12,6 +12,10 @@ public class KoreanExample {
 		Korean k2 = new Korean("장원영" , 45);
 		System.out.println("k2.name : " + k2.name);
 		System.out.println("k2.age : " + k2.age);
+	
+		Korean k3 = new Korean("장원영", "011225-1234567" , "010-1234-5678");
+		System.out.println("k3.name : " + k3.name);
+		System.out.println("k3.num : " + k3.num);
 	}
 
 }
