@@ -35,4 +35,12 @@ public class Arithmetic {
 	public void say(int result) {
 		System.out.println(result);
 	}
+	
+	public String aaa (int a) {
+		return "";
+	} 
+	
+	static void staticTest( ) {
+		System.out.println("나는 나비");
+	} 
 }
