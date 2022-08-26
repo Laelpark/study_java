@@ -18,6 +18,12 @@ public class StudentExample {
 		System.out.println(student2.name);
 		System.out.println(student2.ssn);
 		System.out.println(student2.studentNo);
+		 
+		Student student3 = new Student("sdf", "84563-654165");
+
+		System.out.println(student3.name);
 	}
 
+	
+	
 }
