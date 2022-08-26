@@ -23,6 +23,7 @@ public class StudentExample {
 
 		System.out.println(student3.name);
 		System.out.println(student3.ssn);
+		System.out.println(student3.studentNo);
 	}
 
 	
