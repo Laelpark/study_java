@@ -16,5 +16,20 @@ public class TestCh extends Test {
 		sum = (array[0] * array[1]) + array[2] + 10;
 		return sum;
 	}
+
+	@Override
+	public void SortByAsc(int[] arr) {
+		// TODO Auto-generated method stub
+		super.SortByAsc(arr);
+	}
+
+	@Override
+	public void printArr(int[] arr) {
+		// TODO Auto-generated method stub
+		super.printArr(arr);
+	}
 	
 }
+
+
+

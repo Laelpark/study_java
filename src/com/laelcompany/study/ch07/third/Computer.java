@@ -1,8 +1,6 @@
 package com.laelcompany.study.ch07.third;
 
 public class Computer extends Calculator{
-
-	
 	
 	// 우 클릭 - 소스 - 오버라이드
 	
