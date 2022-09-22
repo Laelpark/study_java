@@ -4,10 +4,8 @@ public interface RemoteControl {
 	
 	// 인터페이스 
 
-	public static final int MAX_VOLUME = 10;
+	public static final int MAX_VOLUME = 10, MIN_VOLUME = 0;
 			// 인트형 상수 
-	int MIN_VOLUME = 0;
-	
 	
 	// 추상메소드 = 일반 클래스
 	public abstract void turnOn();	
