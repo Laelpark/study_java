@@ -1,4 +1,4 @@
-package com.laelcompany.study.ch08.first;
+/*package com.laelcompany.study.ch08.first;
 
 public interface RemoteControl {
 	
@@ -25,6 +25,31 @@ public interface RemoteControl {
 	//static: 정적메소드
 	static void changeBattery() {
 		System.out.println("건전지를 교환합니다.");
+	}
+	
+}
+*/
+
+package com.laelcompany.study.ch08.first;
+
+public interface RemoteControl {
+	
+	public static final int MAX_VOLUME = 10, MIN_VOLUME = 0;
+	
+	public abstract void turnOn();  
+	void turnOff(); 
+	void setVolume (int volume);
+	
+	default void setMute(boolean mute) {
+		if(mute) {
+			System.out.println("무음");
+		}else {
+			System.out.println("무음해제");
+		}
+	}
+	
+	static void changeBattery() {
+		System.out.println("건저지 교환");
 	}
 	
 }
