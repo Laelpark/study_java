@@ -1,26 +1,22 @@
-package com.laelcompany.study.ch08.first;
-
-public class RemoteControlExample {
-	
-	public static void main(String[] args) {
-		
-		
-// 맞은 방법		RemoteControl television = new Television();      왼쪽에는 인터페이스 이름, 오른쪽에 클래스 이름이 나와야됨
-// 맞은 방법		RemoteControl remoteControl = new Television();
-// 틀린 방법		Television television2 = new Television();
-	
-		
-		
-	RemoteControl remoteControl = new Television();
-	remoteControl.turnOn();
-	remoteControl.setMute(true);
-	remoteControl.setMute(false);
-	remoteControl.setVolume(-10);
-	RemoteControl.changeBattery();
-	remoteControl.turnOff();
-	
-	remoteControl.setMute(false);
-	RemoteControl.changeBattery();
+//package com.laelcompany.study.ch08.first;
+//
+//public class RemoteControlExample {
+//	
+//	public static void main(String[] args) {
+//		
+//		
+//// 맞은 방법		RemoteControl television = new Television();      왼쪽에는 인터페이스 이름, 오른쪽에 클래스 이름이 나와야됨
+//// 맞은 방법		RemoteControl remoteControl = new Television();
+//// 틀린 방법		Television television2 = new Television();
+//	
+//		
+//	RemoteControl remoteControl = new Television();
+//	remoteControl.turnOn();
+//	remoteControl.turnOff();
+//	remoteControl.setMute(true);
+//	remoteControl.setMute(false);
+//	remoteControl.setVolume(-10);
+//	RemoteControl.changeBattery();
 	
 //	Audio audio = new Audio();
 //	Television television = new Television();
@@ -47,9 +43,22 @@ public class RemoteControlExample {
 //	remoteControl.turnOn();
 //	remoteControl.turnOff();
 //	remoteControl.setMute(false);
+
+package com.laelcompany.study.ch08.first;
+ public class RemoteControlExample {
+	public static void main(String[] args) {
+		
+		RemoteControl remoteControl = new Television();
+		
+		remoteControl.setMute(true);
+		remoteControl.setMute(false);
+		remoteControl.setVolume(-10);
+		remoteControl.trunOff();
+		remoteControl.turnOn();
+		RemoteControl.changeBattery();
+		
+	} 
 	
-	}
-	
-}
-	
+	 
+ }
 

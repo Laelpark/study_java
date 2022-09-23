@@ -31,25 +31,25 @@ public interface RemoteControl {
 */
 
 package com.laelcompany.study.ch08.first;
-
-public interface RemoteControl {
-	
-	public static final int MAX_VOLUME = 10, MIN_VOLUME = 0;
-	
-	public abstract void turnOn();  
-	void turnOff(); 
-	void setVolume (int volume);
-	
-	default void setMute(boolean mute) {
-		if(mute) {
-			System.out.println("무음");
-		}else {
-			System.out.println("무음해제");
+	public interface RemoteControl {
+		
+		public static final int MAX_VOLUME = 10;
+		int MIN_VOLUME = 0;
+		
+		public abstract void turnOn();
+		void trunOff();
+		void setVolume(int volum);
+		
+		default void setMute(Boolean mute) {
+			if(mute) {
+				System.out.println("무음처리");
+			} else {
+				System.out.println("무음해제");
+			}
+		} 
+		
+		static void changeBattery() {
+			System.out.println("배터리교체");
 		}
+		
 	}
-	
-	static void changeBattery() {
-		System.out.println("건저지 교환");
-	}
-	
-}
