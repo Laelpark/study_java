@@ -52,7 +52,7 @@ package com.laelcompany.study.ch08.first;
 		
 		remoteControl.setMute(true);
 		remoteControl.setMute(false);
-		remoteControl.setVolume(-10);
+		remoteControl.setVolume(10);
 		remoteControl.trunOff();
 		remoteControl.turnOn();
 		RemoteControl.changeBattery();
